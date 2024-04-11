@@ -20,23 +20,21 @@ onErrorCaptured((err, instance, info) => {
     <!-- nav#mainNav>ul>li*3>a[href="#"]{item $} -->
     <Transition class="transition-transform duration-1000" enter-from-class="-translate-x-full"
       enter-to-class="translate-x-0" leave-active-class="-translate-x-full">
-      <nav id="mainNav">
+      <nav id="mainNav" v-show="menuIsOpen">
         <ul>
-          <li><a href="#">item 1</a></li>
-          <li><a href="#">item 2</a></li>
-          <li><a href="#">item 3</a></li>
+          <li>
+            <RouterLink to="/" class="text-red-500 underline"> Accueil </RouterLink>
+          </li>
+          <li>
+            <RouterLink to="/donnees" class="text-red-500 underline"> data </RouterLink>
+          </li>
+         
         </ul>
       </nav>
     </Transition>
 
 
-    <nav>
-      <ul>
-        <li>
-          <RouterLink to="/" class="text-red-500 underline"> Accueil </RouterLink>
-        </li>
-      </ul>
-    </nav>
+
 
   </header>
   <RouterView v-slot="{ Component }">
