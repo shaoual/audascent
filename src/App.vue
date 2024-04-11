@@ -1,4 +1,4 @@
-<script lang="ts">
+<script setup lang="ts">
 import { onErrorCaptured, ref } from 'vue'
 import { RouterLink, RouterView } from 'vue-router/auto'
 
@@ -13,9 +13,11 @@ onErrorCaptured((err, instance, info) => {
 
 <template>
   <header>
-    <button aria-controls="mainNav" aria-expanded="true" class="rounded-full border-2 border-red-600 bg-red-300 px-2">
+    <button aria-controls="mainNav" aria-expanded="true" class="rounded-full border-2 border-red-600 bg-red-300 px-2"
+      @pointerdown="menuIsOpen = !menuIsOpen">
       menu
     </button>
+  
     <!-- nav#mainNav>ul>li*3>a[href="#"]{item $} -->
     <nav id="mainNav">
       <ul>
@@ -24,7 +26,7 @@ onErrorCaptured((err, instance, info) => {
         <li><a href="#">item 3</a></li>
       </ul>
     </nav>
-
+    
     <nav>
       <ul>
         <li>
