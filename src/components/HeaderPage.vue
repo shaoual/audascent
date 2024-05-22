@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import logo from '@/assets/icons/logo.vue'
-import iconsoleil from '@/assets/icons/icon_sun.svg'
+import logo from '@/components/icons/logo.vue'
+import iconsoleil from '@/components/icons/icon_sun.vue'
 import { RouterLink } from 'vue-router'
 
 const activeMenu = ref(false)
@@ -42,7 +42,7 @@ function closeMenu() {
             class="text-light-gray text-xl font-bold lg:text-base lg:font-normal mt-4 lg:mt-0 block rounded-lg active"
             to="/DecouvrirlesIA"
             @click="closeMenu"
-            >Découvrir les IA</RouterLink
+            >Tournois</RouterLink
           >
         </li>
         <hr class="border-light-gray" />
@@ -51,10 +51,18 @@ function closeMenu() {
             class="text-light-gray text-xl font-bold lg:text-base lg:font-normal mt-4 lg:mt-0 block rounded-lg"
             to="/Proposer"
             @click="closeMenu"
-            >Proposer une IA</RouterLink
+            >Classements</RouterLink
           >
         </li>
         <hr class="border-light-gray" />
+        <li>
+          <RouterLink
+            class="text-light-gray text-xl font-bold lg:text-base lg:font-normal mt-4 lg:mt-0 block rounded-lg"
+            to="/Contact"
+            @click="closeMenu"
+            >À propos</RouterLink
+          >
+        </li>
         <li>
           <RouterLink
             class="text-light-gray text-xl font-bold lg:text-base lg:font-normal mt-4 lg:mt-0 block rounded-lg"
