@@ -1,3 +1,88 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+  body {
+    background-image: url('../');
+    background-size: cover;
+    background-color: #09111c;
+    color: #fbfbfb;
+  }
+
+
+  h1 {
+    font-size: 1.5rem; 
+    font-weight: 700; 
+  }
+
+  @media (min-width: 640px) {
+    h1 {
+      font-size: 1.5rem; 
+    }
+  }
+
+  @media (min-width: 768px) {
+    h1 {
+      font-size: 1.875rem; 
+    }
+  }
+
+  @media (min-width: 1024px) {
+    h1 {
+      font-size: 2.25rem;
+    }
+  }
+
+h2 {
+    font-size: 1.875rem; 
+    font-weight: 500;
+    margin-top: 2.5rem; 
+    margin-bottom: 3.75rem; 
+  }
+
+  @media (max-width: 768px) {
+    h2 {
+      font-size: 1.5rem; 
+    }
+  }
+
+h3 {
+    font-size: 1.125rem; 
+    font-weight: 500; 
+    margin-bottom: 1rem;
+}
+
+  .main-content {
+    margin-top: 1.25rem; 
+    margin-bottom: 1.25rem; 
+    margin-left: 1.625rem; 
+    margin-right: 1.625rem; 
+  }
+
+  @media (min-width: 768px) {
+    .main-content {
+      margin-left: 3rem; 
+      margin-right: 3rem; 
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .main-content {
+      margin-left: 6.875rem; 
+      margin-right: 6.875rem; 
+    }
+  }
+
+  .transparent-gradient {
+    background: linear-gradient(to bottom, rgba(140, 102, 165, 0.2), rgba(179, 178, 193, 0.2));
+    }
+
+    .card-container {
+      width: 350px; 
+    }
+
+    @media (max-width: 1024px) {
+      .card-container {
+        width: 320px;
+      }
+    }
