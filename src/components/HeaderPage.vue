@@ -103,7 +103,7 @@ function closeMenu() {
       </RouterLink>
 
       <RouterLink
-        class="flex-1 p-4 rounded-lg text-indigo-500 font-bold lg:flex-none lg:px-6"
+        class="flex-1 p-4 rounded-lg text-white font-bold lg:flex-none lg:px-6"
         to="/Seconnecter"
       >
         Se connecter
