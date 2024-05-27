@@ -3,9 +3,9 @@
 @tailwind utilities;
 
   body {
-    background-image: url('../');
+    background-image: url('/img/img_fond.webp');
     background-size: cover;
-    background-color: #09111c;
+    background-color: rgb(12 10 9);;
     color: #fbfbfb;
   }
 
