@@ -1,4 +1,3 @@
-
 <script setup lang="ts">
 import { RouterLink } from 'vue-router'
 </script>
@@ -10,7 +9,7 @@ import { RouterLink } from 'vue-router'
       <div class="text-center md:text-left text-white">
         <h1 class="text-4xl font-Helvetica font-bold">Audascent</h1>
         <p class="mt-5 font-bold">Votre talent, notre arène, à l'apogée du jeu !</p>
-        <p class="g:flex mt-6 text-white text-center md:text-left mx-4 md:mx-0">Ascentia est une plateforme dédiée aux amateurs d'esports, offrant un espace pour s'affronter, progresser et exceller dans l'univers compétitif du jeu vidéo.</p>
+        <p class="mt-6 md:text-left m md:mx-0">Ascentia est une plateforme dédiée aux amateurs d'esports, offrant un espace pour s'affronter, progresser et exceller dans l'univers compétitif du jeu vidéo.</p>
         <div class="mt-10 flex justify-center md:justify-start">
           <button class="bg-orange-600 hover:bg-gray-400 text-white py-4 px-14 rounded inline-flex items-center border-2 border-white">
             <RouterLink to="../pages/tournois.vue">Rejoindre un tournoi</RouterLink>
