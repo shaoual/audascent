@@ -86,3 +86,11 @@ h3 {
         width: 320px;
       }
     }
+
+ section {
+  background-size: cover;
+  background-position: center;
+}
+.bg-gradient-to-b {
+  height: 100%;
+}
