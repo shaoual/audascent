@@ -9,11 +9,11 @@ import hero from '@/components/hero.vue'
    <main class="main-content">
   <hero class="mb-44 lg:mb-96" />
 
-  <div class=" text-white">
+  <div class=" text-white ">
  
-    <div class="flex items-center justify-center mt-20 md:grid md:grid-cols-2 md:mt-32 lg:mt-52">
+    <div class="flex items-center justify-center mt-20 md:grid md:grid-cols-2 md:mt-32 lg:mt-52 ">
 
- <div class="hidden md:block order-1 md:order-2 mx-auto">
+ <div class="hidden md:block order-2 md:order-2 mx-auto">
 
                 <div class="flex justify-center">
                   <img src="/public/img/img__GameController.webp"
@@ -43,7 +43,7 @@ import hero from '@/components/hero.vue'
   </div>
 
 <div class="flex justify-center md:float-left">
-      <button class="bg-purple-900 hover:bg-gray-400 text-white mt-10 py-4 px-14 rounded inline-flex items-center border-2 border-whiter lg:flex-row">
+      <button class="bg-indigo-952 hover:bg-gray-400 text-white mt-10 py-4 px-14 rounded inline-flex items-center border-2 border-whiter lg:flex-row">
         <RouterLink to="/apropos">Lire plus</RouterLink>
       </button>
     </div>
@@ -51,15 +51,6 @@ import hero from '@/components/hero.vue'
   </div>
 
     </div>
- 
-
-
-      <!-- Jumbotron -->
-    <!-- Section: Design Block -->
-
-  
-    
-
   </div>
 
 </main>
