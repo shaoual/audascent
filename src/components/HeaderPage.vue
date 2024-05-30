@@ -76,7 +76,7 @@ function closeMenu() {
         <li class="lg:hidden">
           <RouterLink
             class="text-light-gray text-xl font-bold lg:text-base lg:font-normal mt-4 lg:mt-0 block rounded-lg"
-            to="/Seconnecter"
+            to="/se connecter"
             @click="closeMenu"
             >Se connecter</RouterLink
           >
