@@ -19,7 +19,6 @@ import { RouterLink } from 'vue-router'
       </button>
     </a>
 
-    
       <img src="/public/img/img_leagues_desc.webp" class="h-auto rounded-lg lg:w-1/2 mt-10" alt="Lexica IA" />
 
 
