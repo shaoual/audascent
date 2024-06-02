@@ -1,57 +1,62 @@
 <script setup lang="ts">
 import HeaderPage from '@/components/HeaderPage.vue'
 import FooterPage from '@/components/FooterPage.vue'
-import hero from '@/components/hero.vue'
+import Hero from '@/components/hero.vue'
+import GameCards from '@/components/GameCards.vue'
 </script>
 
-
 <template>
-   <main class="main-content">
-  <hero class="mb-44 lg:mb-96" />
+  <div class="flex flex-col min-h-screen">
 
-  <div class=" text-white ">
- 
-    <div class="flex items-center justify-center mt-20 md:grid md:grid-cols-2 md:mt-32 lg:mt-52 ">
+    <main class="flex-grow">
+      <!-- Hero Section -->
+      <Hero class="mb-44 lg:mb-96" />
 
- <div class="hidden md:block order-2 md:order-2 mx-auto">
+      <!-- About Us Section -->
+      <div class="px-4 py-20 md:py-32 lg:py-52 text-center md:text-left">
+        <div class="flex items-center justify-center md:grid md:grid-cols-2">
+          <!-- Image for larger screens -->
+          <div class="hidden md:block mx-auto">
+            <img src="/public/img/img__GameController.webp" class="w-2/3 lg:w-1/3" alt="illustration" />
+          </div>
 
-                <div class="flex justify-center">
-                  <img src="/public/img/img__GameController.webp"
-                    class="w-2/3 md:full lg:1/3" alt="illustration" />
-                </div>
+          <!-- Text Content -->
+          <div>
+            <h1 class="text-3xl font-bold mt-3 text-white">À PROPOS DE NOUS</h1>
+            <p class="mt-6 mx-4 md:mx-0 text-white">
+              Bienvenue dans l'univers d'Ascentia, le carrefour où les passionnés d'esports gravissent les sommets de la compétition. Notre plateforme vous propose une expérience de jeu inégalée, conçue pour les aspirants champions en quête d'ascension. À travers nos tournois dynamiques, Ascentia réunit une communauté soudée par la passion du jeu et le goût du défi. Rejoignez-nous et tracez votre parcours vers la gloire.
+            </p>
+            <div class="flex justify-center md:justify-start mt-10">
+              <RouterLink to="/apropos" class="bg-indigo-600 hover:bg-gray-400 text-white py-4 px-14 rounded inline-flex items-center border-2 border-white">
+                Lire plus
+              </RouterLink>
+            </div>
+          </div>
 
-                </div>
-
-
-
-
-
-  <div class="order-2 md:order-1 ">
-  <div class="lg:flex">
-    <h1 class="text-3xl text-center md:text-justify font-Helvetica font-bold mt-3 text-white">À PROPOS DE NOUS</h1>
-  </div>
-
-
-      <div class="order-3 md:hidden mt-20 mx-auto">
-        <div class="flex justify-center">
-          <img src="/public/img/img__GameController.webp" class="w-2/3 md:w-full" alt="illustration" />
+          <!-- Image for smaller screens -->
+          <div class="md:hidden mt-20 mx-auto">
+            <img src="/public/img/img__GameController.webp" class="w-2/3" alt="illustration" />
+          </div>
         </div>
-        </div>
+      </div>
 
-  <div class="lg:flex mt-6 text-white text-center md:text-left mx-4 md:mx-0">
-    <p>Bienvenue dans l'univers d'Ascentia, le carrefour où les passionnés d'esports gravissent les sommets de la compétition. Notre plateforme vous propose une expérience de jeu inégalée, conçue pour les aspirants champions en quête d'ascension. À travers nos tournois dynamiques, Ascentia réunit une communauté soudée par la passion du jeu et le goût du défi. Rejoignez-nous et tracez votre parcours vers la gloire.</p>
-  </div>
-
-<div class="flex justify-center md:float-left">
-      <button class="bg-indigo-952 hover:bg-gray-400 text-white mt-10 py-4 px-14 rounded inline-flex items-center border-2 border-whiter lg:flex-row">
-        <RouterLink to="/apropos">Lire plus</RouterLink>
-      </button>
-    </div>
+     
 
   </div>
-
-    </div>
-  </div>
-
-</main>
 </template>
+
+<style scoped>
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+.main-content {
+  width: 100%;
+  min-height: 100vh;
+}
+
+h1, h2, h3 {
+  color: white;
+}
+</style>
