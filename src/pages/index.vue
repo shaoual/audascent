@@ -41,21 +41,27 @@ import GameCards from '@/components/GameCards.vue'
       </div>
 
       <!-- Experience Section -->
-      <section class="px-4 py-20 text-center">
+       <section class="px-4 py-20 text-center">
         <h2 class="text-4xl font-bold mb-12 text-white">VIVEZ L'EXPÉRIENCE ASCENTIA</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
-            <div class="text-6xl mb-4">📈</div>
+          <div class="bg-gray-800 p-6 rounded-lg shadow-lg flex flex-col items-center text-center">
+            <a href="https://instagram.com" aria-label="Tweeter">
+            <Icon_1 />
+          </a>
             <h3 class="text-2xl font-bold mb-2 text-white">Graphiques Dynamiques</h3>
             <p class="text-gray-400">Visualisez votre progression grâce à des graphiques et des analyses détaillées de vos performances.</p>
           </div>
-          <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
-            <div class="text-6xl mb-4">🏆</div>
-            <h3 class="text-2xl font-bold mb-2 text-white">Récompenses Exclusives</h3>
+          <div class="bg-gray-800 p-6 rounded-lg shadow-lg flex flex-col items-center text-center">
+            <a href="https://instagram.com" aria-label="Tweeter">
+            <Icon_2 />
+          </a>
+            <h3 class="text-2xl font-bold mb-2 text-white">Récompenses exclusives</h3>
             <p class="text-gray-400">Participez à des tournois pour gagner des prix uniques et des récompenses qui vous aideront à vous démarquer dans la communauté.</p>
           </div>
-          <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
-            <div class="text-6xl mb-4">🔓</div>
+          <div class="bg-gray-800 p-6 rounded-lg shadow-lg flex flex-col items-center text-center">
+            <a href="https://instagram.com" aria-label="Tweeter">
+            <Icon_3 />
+          </a>
             <h3 class="text-2xl font-bold mb-2 text-white">Accessibilité Totale</h3>
             <p class="text-gray-400">Accédez à notre plateforme depuis n'importe quel appareil et plongez au cœur de l'action où que vous soyez.</p>
           </div>
