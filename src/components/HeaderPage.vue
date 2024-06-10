@@ -84,7 +84,7 @@ function closeMenu() {
         <hr class="border-light-gray mb-6" />
         <li class="flex justify-start items-center lg:hidden">
           <RouterLink to="/" class="mr-2">
-            <img src="/public/img/english_flag 16.22.50.webp" alt="card" class="w-2/4" />
+            <img src="/public/img/english_flag 16.22.50.webp" alt="card" class="w-2/6" />
           </RouterLink>
           <RouterLink to="/" class="ml-2">
             <iconsoleil />
@@ -95,7 +95,7 @@ function closeMenu() {
 
     <div class="hidden lg:flex items-center gap-4 px-4 lg:flex-row">
       <RouterLink to="/">
-        <img src="/public/img/english_flag 16.22.50.webp" alt="card" class="w-2/4" />
+        <img src="/public/img/english_flag 16.22.50.webp" alt="card" class="w-2/6" />
       </RouterLink>
 
       <RouterLink to="/">
