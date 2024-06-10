@@ -58,7 +58,7 @@ function closeMenu() {
         <li>
           <RouterLink
             class="text-light-gray text-xl font-bold lg:text-base lg:font-normal mt-4 lg:mt-0 block rounded-lg"
-            to="/Contact"
+            to="/apropos"
             @click="closeMenu"
             >À propos</RouterLink
           >
