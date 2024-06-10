@@ -1,4 +1,9 @@
    <script setup lang="ts">
+  
+
+ 
+
+  
 </script>
 
 
@@ -16,6 +21,8 @@
         <h3 class="text-2xl">Classement des Meilleurs Joueurs</h3> 
         <p class="md:text-sm lg:w-1/2"> Découvrez les maîtres du jeu qui dominent les classements d'Ascenita. Ces champions ont su démontrer habileté, stratégie et persévérance pour atteindre le sommet. Consultez le tableau ci-dessous pour voir qui sont les étoiles de notre communauté e-sportive :
         </p>
+
+  
       
 
 
