@@ -62,3 +62,14 @@ export async function jeuxByGenre(genre) {
   }
 }
 
+// Fonction qui retourne la liste des jeux triés par nom
+export async function jeuxSortedByNom() {
+  try {
+    const records = await pb.collection('jeux').getFullList({
+      sort: 'Nom'
+    })
+    return records
+  } catch (e) {
+    console.error(e)
+  }
+}
