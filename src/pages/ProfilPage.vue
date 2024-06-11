@@ -55,13 +55,13 @@
       </div>
       <div class="bg-zinc-800 p-4 rounded-lg mt-6">
         <h2 class="text-xl font-bold mb-4">Mots de passe et authentification</h2>
-        <button class="bg-blue-900 hover:bg-black text-white font-bold py-2 px-4 rounded">Changer le mot de passe</button>
+        <button class="bg-zinc-300 hover:bg-black text-white font-bold py-2 px-4 rounded">Changer le mot de passe</button>
       </div>
       <div class="bg-zinc-800 p-4 rounded-lg mt-6">
         <h2 class="text-xl font-bold mb-4">Suppression du compte</h2>
         <p>Désactiver ton compte signifie que tu pourras le récupérer à tout moment après sa désactivation.</p>
         <div class="flex space-x-4 mt-4">
-          <button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">Désactiver le compte</button>
+          <button class="bg-red-800 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">Désactiver le compte</button>
           <button class="border-red-800 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">Supprimer le compte</button>
         </div>
       </div>
