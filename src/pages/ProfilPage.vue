@@ -53,11 +53,11 @@
         <h2 class="text-xl font-bold mb-4">Biographie</h2>
         <p>Je suis Pokutius, spécialiste des jeux de stratégie sur Ascentia. Depuis 2016, je vis pour la compétition et la conquête de sommets électroniques, me distinguant dans des titres tels que "League of Legends" et "Valorant". Au-delà du jeu, j’apporte mon aide à la communauté, partageant conseils et tactiques pour que nous progressions tous. Mon jeu se fait quête de dépassement et d'excellence. Suivez mon parcours et relevons ensemble les défis de l'e-sport.</p>
       </div>
-      <div class="bg-zinc-800 p-4 rounded-lg mt-6">
+      <div class=" p-4 rounded-lg mt-6">
         <h2 class="text-xl font-bold mb-4">Mots de passe et authentification</h2>
-        <button class="bg-zinc-300 hover:bg-black text-white font-bold py-2 px-4 rounded">Changer le mot de passe</button>
+        <button class="bg-zinc-600 hover:bg-black text-white font-bold py-2 px-4 rounded">Changer le mot de passe</button>
       </div>
-      <div class="bg-zinc-800 p-4 rounded-lg mt-6">
+      <div class="p-4 rounded-lg mt-6">
         <h2 class="text-xl font-bold mb-4">Suppression du compte</h2>
         <p>Désactiver ton compte signifie que tu pourras le récupérer à tout moment après sa désactivation.</p>
         <div class="flex space-x-4 mt-4">
