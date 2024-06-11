@@ -1,5 +1,5 @@
 <script setup lang-="ts">
-import menu from '@/components/menu.vue'
+
 </script>
 
 <template>
@@ -20,8 +20,8 @@ import menu from '@/components/menu.vue'
 
  <h2 class="font-bold mb-3 text-center"> Tournois en Vedette</h2>
 
- <menu />
  
+
 </main>
 
 
