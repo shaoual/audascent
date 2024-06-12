@@ -73,3 +73,20 @@ export async function jeuxSortedByNom() {
     console.error(e)
   }
 }
+
+
+// Test de la fonction allPlayersSortedByScore
+try {
+  const players = await allPlayersSortedByScore()
+  console.log('All players sorted by score:', JSON.stringify(players, null, 2))
+} catch (e) {
+  console.error(e)
+}
+
+// Test de la fonction playerById
+try {
+  const player = await playerById('a6h6hd4srgmirf4') // Remplacez par un ID valide de joueur
+  console.log('Player by ID:', JSON.stringify(player, null, 2))
+} catch (e) {
+  console.error(e)
+}

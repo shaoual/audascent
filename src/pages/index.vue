@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import HeaderPage from '@/components/HeaderPage.vue'
-import FooterPage from '@/components/FooterPage.vue'
 import Hero from '@/components/hero.vue'
 import GameCards from '@/components/GameCards.vue'
 </script>
