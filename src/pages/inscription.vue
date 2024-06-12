@@ -31,6 +31,14 @@
       <div class="md:col-span-2 flex justify-center m-4">
         <button class="bg-purple-500 text-white font-bold rounded py-2 px-10 mb-5" type="submit" :disabled="!acceptedConditions">S'inscrire</button>
       </div>
+      <div class="flex justify-center space-x-4">
+        <button @click="signInWithGoogle" type="button" class="bg-red-500 text-white font-bold rounded py-2 px-4">
+          <i class="fab fa-google"></i> Google
+        </button>
+        <button @click="signInWithFacebook" type="button" class="bg-blue-500 text-white font-bold rounded py-2 px-4">
+          <i class="fab fa-facebook"></i> Facebook
+        </button>
+      </div>
       <router-link to="/seconnecter">
         <p class="text-center">Déjà un compte ? <span class="text-violet-500">Se connecter</span></p>
       </router-link>
@@ -41,12 +49,12 @@
 </template>
 
 <script>
-import PocketBase from 'pocketbase';
 import { ref } from 'vue';
+import { auth, googleProvider, facebookProvider } from '../firebase';
+import { createUserWithEmailAndPassword, signInWithPopup } from 'firebase/auth';
 
 export default {
   setup() {
-    const pb = new PocketBase('http://127.0.0.1:8090');
     const acceptedConditions = ref(false);
     const error = ref(null);
     const success = ref(null);
@@ -77,19 +85,41 @@ export default {
       }
 
       try {
-        const data = { email, password, passwordConfirm, lastName, firstName };
-        const response = await pb.collection('users').create(data);
+        const userCredential = await createUserWithEmailAndPassword(auth, email, password);
+        const user = userCredential.user;
         success.value = "Vous êtes inscrit, veuillez vous connecter.";
-        console.log("Réponse de PocketBase:", response);
+        console.log("Utilisateur créé:", user);
       } catch (e) {
         error.value = `Erreur lors de l'inscription: ${e.message}`;
-        console.error("Erreur PocketBase:", e);
+        console.error("Erreur Firebase:", e);
+      }
+    };
+
+    const signInWithGoogle = async () => {
+      try {
+        const result = await signInWithPopup(auth, googleProvider);
+        console.log("Connecté avec Google:", result.user);
+      } catch (e) {
+        error.value = `Erreur lors de la connexion avec Google: ${e.message}`;
+        console.error("Erreur Google:", e);
+      }
+    };
+
+    const signInWithFacebook = async () => {
+      try {
+        const result = await signInWithPopup(auth, facebookProvider);
+        console.log("Connecté avec Facebook:", result.user);
+      } catch (e) {
+        error.value = `Erreur lors de la connexion avec Facebook: ${e.message}`;
+        console.error("Erreur Facebook:", e);
       }
     };
 
     return {
       acceptedConditions,
       register,
+      signInWithGoogle,
+      signInWithFacebook,
       error,
       success,
     };
@@ -98,5 +128,6 @@ export default {
 </script>
 
 <style>
-/* */
+/* Ajoutez ici le style pour les icônes, par exemple en utilisant Font Awesome */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
 </style>

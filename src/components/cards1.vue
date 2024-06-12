@@ -12,7 +12,7 @@ console.log('dans cards1', { ...props })
       <div class="self-stretch flex-grow-0 flex-shrink-0 h-64">
         <ImgPb
           :record="props"
-          :filename="props.id[0]"
+          :filename="image[0]"
           class="rounded-t-lg w-full h-full object-cover"
         />
       </div>
