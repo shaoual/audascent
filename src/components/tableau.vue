@@ -12,15 +12,15 @@
         </tr>
       </thead>
       <tbody>
-        <tr v-for="(players, index) in players" :key="players.id">
+        <tr v-for="(player, index) in players" :key="player.id">
           <td>#{{ index + 1 }}</td>
           <td>
-            <img :src="players.avatar" alt="Avatar" class="avatar" />
-            {{ players.Nom }}
+            <img :src="player.Image" alt="Avatar" class="avatar" />
+            {{ player.Nom }}
           </td>
-          <td>{{ players.Pays }}</td>
-          <td>{{ players.Score }}</td>
-          <td>{{ players.Progression }}</td>
+          <td>{{ player.Pays }}</td>
+          <td>{{ player.Score }}</td>
+          <td>{{ player.Progression }}</td>
         </tr>
       </tbody>
     </table>
@@ -37,16 +37,16 @@ const players = ref([]); // Liste des joueurs
 // Fonction pour récupérer les joueurs et les trier par score décroissant
 const fetchPlayers = async () => {
   try {
-    const records = await pb.collection('players').getFullList({
+    const records = await pb.collection('players').getFullList(200, {
       sort: '-Score', // Trie par score décroissant
     });
-    players.value = records.map(players => ({
-      id: players.id,
-      Nom: players.Nom,
-      Pays: players.Pays,
-      Score: players.Score,
-      Progression: players.Progression,
-      avatar: players.Image,
+    players.value = records.map(player => ({
+      id: player.id,
+      Nom: player.Nom,
+      Pays: player.Pays,
+      Score: player.Score,
+      Progression: player.Progression,
+      Image: player.Image ? pb.files.getUrl(player, player.Image) : '', // Assure que l'URL de l'image est correcte
     }));
   } catch (e) {
     console.error(e);
