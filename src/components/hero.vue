@@ -10,7 +10,7 @@ import { RouterLink } from 'vue-router'
       <p class="mt-4 text-2xl text-white">Votre talent, notre arène, à l'apogée du jeu !</p>
       <p class="mt-4 text-lg text-white max-w-xl">Ascentia est une plateforme dédiée aux amateurs d'esports, offrant un espace pour s'affronter, progresser et exceller dans l'univers compétitif du jeu vidéo.</p>
       <div class="mt-6">
-        <RouterLink to="/pages/tournois.vue" class="bg-orange-600 hover:bg-orange-700 text-white py-3 px-8 rounded-lg inline-block">
+        <RouterLink to="/tournoi" class="bg-orange-600 hover:bg-orange-700 text-white py-3 px-8 rounded-lg inline-block">
           Rejoindre un tournoi
         </RouterLink>
       </div>
