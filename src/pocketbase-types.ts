@@ -40,6 +40,7 @@ export type JeuxRecord = {
 	biographie?: string
 	createur?: string
 	genre?: string
+	image?: string
 }
 
 export type UsersRecord = {
