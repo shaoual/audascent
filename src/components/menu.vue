@@ -34,7 +34,7 @@ import IconReglage from '/src/components/icons/icon__reglage.vue'
         </RouterLink>
       </li>
       <li>
-        <RouterLink to="/hall-of-fame">
+        <RouterLink to="/joueur">
           <div class="icon-wrapper">
             <IconReglage class="icon"/>
           </div>
