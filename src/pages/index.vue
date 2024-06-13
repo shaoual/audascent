@@ -43,17 +43,17 @@ import IconCard1 from '@/components/icons/IconCard__1.vue'
        <section class="px-4 py-20 text-center">
         <h2 class="text-4xl font-bold mb-12 text-white">VIVEZ L'EXPÉRIENCE ASCENTIA</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div class="bg-gray-800 p-6 rounded-lg shadow-lg flex flex-col items-center text-center">
+          <div class="bg-gradient-to-r from-gray-800  to-black p-6 rounded-lg shadow-lg flex flex-col items-center text-center">
             <IconCard1 class="w-150 h-150 mb-4 text-white" aria-label="Graphiques Dynamiques" />
             <h3 class="text-2xl font-bold mb-2 text-white">Graphiques Dynamiques</h3>
             <p class="text-gray-400">Visualisez votre progression grâce à des graphiques et des analyses détaillées de vos performances.</p>
           </div>
-          <div class="bg-gray-800 p-6 rounded-lg shadow-lg flex flex-col items-center text-center">
+          <div class="bg-gradient-to-r from-gray-800  to-black p-6 rounded-lg shadow-lg flex flex-col items-center text-center">
             <img src="/Users/selmahaoual/Desktop/audascent/public/img/game_2.webp" class="w-200 h-200 mb-4 text-white" aria-label="Récompenses exclusives" />
             <h3 class="text-2xl font-bold mb-2 text-white">Récompenses exclusives</h3>
             <p class="text-gray-400">Participez à des tournois pour gagner des prix uniques et des récompenses qui vous aideront à vous démarquer dans la communauté.</p>
           </div>
-          <div class="bg-gray-800 p-6 rounded-lg shadow-lg flex flex-col items-center text-center">
+          <div class="bg-gradient-to-r from-gray-800  to-black rounded-lg shadow-lg flex flex-col items-center text-center">
             <img src="/Users/selmahaoual/Desktop/audascent/public/img/IconCard3_1.webp" class="w-200 h-200 mb-4 text-white" aria-label="Accessibilité Totale" />
             <h3 class="text-2xl font-bold mb-2 text-white">Accessibilité Totale</h3>
             <p class="text-gray-400">Accédez à notre plateforme depuis n'importe quel appareil et plongez au cœur de l'action où que vous soyez.</p>
