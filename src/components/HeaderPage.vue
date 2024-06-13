@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import logo from '@/components/icons/logo.vue'
+
 import iconsoleil from '@/components/icons/icon_sun.vue'
+import audascent from '@/components/icons/audascent.vue'
 import { RouterLink } from 'vue-router'
 
 const activeMenu = ref(false)
@@ -13,7 +14,7 @@ function closeMenu() {
 <template>
   <header class="bg-fond-site flex items-center justify-between px-4 h-20">
     <RouterLink to="/">
-      <logo />
+      <audascent />
     </RouterLink>
     <div class="relative z-10">
       <button

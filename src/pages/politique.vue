@@ -10,10 +10,8 @@ import { RouterLink } from 'vue-router'
 <main class="main-content">
 <h2>POLITIQUE DE CONFIDENTIALITÉ</h2>
 
-<menu />
-
 <div class="lg:w-1/2 mb-20">
-    <p class="mt-6">Bienvenue sur notre page dédiée à la politique de confidentialité d'Ascentia. Nous accordons une grande importance à la protection de vos données personnelles et à votre vie privée. Cette politique vise à vous informer sur la manière dont nous collectons, utilisons, divulguons, et protégeons vos informations personnelles lorsque vous utilisez notre site web et nos services..</p>
+    <p class="mt-6">Bienvenue sur notre page dédiée à la politique de confidentialité d'Audascent. Nous accordons une grande importance à la protection de vos données personnelles et à votre vie privée. Cette politique vise à vous informer sur la manière dont nous collectons, utilisons, divulguons, et protégeons vos informations personnelles lorsque vous utilisez notre site web et nos services..</p>
 
     <p class="mt-6">Collecte d'informations</p>
 

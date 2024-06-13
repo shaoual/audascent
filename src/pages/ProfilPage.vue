@@ -51,7 +51,7 @@
       </div>
       <div class="bg-zinc-800 p-4 rounded-lg mt-6">
         <h2 class="text-xl font-bold mb-4">Biographie</h2>
-        <p>Je suis Pokutius, spécialiste des jeux de stratégie sur Ascentia. Depuis 2016, je vis pour la compétition et la conquête de sommets électroniques, me distinguant dans des titres tels que "League of Legends" et "Valorant". Au-delà du jeu, j’apporte mon aide à la communauté, partageant conseils et tactiques pour que nous progressions tous. Mon jeu se fait quête de dépassement et d'excellence. Suivez mon parcours et relevons ensemble les défis de l'e-sport.</p>
+        <p>Je suis Pokutius, spécialiste des jeux de stratégie sur Audascent. Depuis 2016, je vis pour la compétition et la conquête de sommets électroniques, me distinguant dans des titres tels que "League of Legends" et "Valorant". Au-delà du jeu, j’apporte mon aide à la communauté, partageant conseils et tactiques pour que nous progressions tous. Mon jeu se fait quête de dépassement et d'excellence. Suivez mon parcours et relevons ensemble les défis de l'e-sport.</p>
       </div>
       <div class=" p-4 rounded-lg mt-6">
         <h2 class="text-xl font-bold mb-4">Mots de passe et authentification</h2>

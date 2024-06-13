@@ -17,7 +17,7 @@ import Menu from '@/components/menu.vue'
     <!-- Section Événements Immanquables -->
     <h2 class="text-white text-3xl font-bold mb-6 ml-36 ">ÉVÉNEMENTS IMMANQUABLES</h2>
     <p class="text-gray-300 mb-8 md:text-m lg:w-1/2 ml-36">
-      Ascentia vous invite à explorer un univers où passion, compétition et innovation se rencontrent.
+      Audascent vous invite à explorer un univers où passion, compétition et innovation se rencontrent.
       Découvrez sans plus attendre les derniers échos de la scène e-sportive, des insights exclusifs et
       des histoires inspirantes qui façonnent notre communauté vibrante.
     </p>
@@ -27,7 +27,7 @@ import Menu from '@/components/menu.vue'
     <h3 class="text-white text-2xl font-bold mb-4 ml-36">À la Une</h3>
     <ul class="text-gray-300 mb-10">
       <li class="mb-4 lg:w-1/2 ml-36">
-        <strong>• Révolution à Ascentia E-sport :</strong> Découvrez comment l'intelligence artificielle transforme
+        <strong>• Révolution à Audascent E-sport :</strong> Découvrez comment l'intelligence artificielle transforme
         l'entraînement et la stratégie dans les jeux compétitifs, offrant des perspectives inédites aux
         joueurs et aux équipes.
       </li>

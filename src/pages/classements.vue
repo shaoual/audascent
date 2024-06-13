@@ -56,7 +56,7 @@ import tableau from '/Users/selmahaoual/Desktop/audascent/src/components/tableau
 
 
       <h3 class="text-2xl mt-24 ">Classement des Meilleurs Joueurs</h3> 
-        <p class="md:text-sm  mx-0."> Découvrez les maîtres du jeu qui dominent les classements d'Audascent. Ces champions ont su démontrer habileté, stratégie et persévérance pour atteindre le sommet. Consultez le tableau ci-dessous pour voir qui sont les étoiles de notre communauté e-sportive :
+        <p class="text-2xl md:text-sm"> Découvrez les maîtres du jeu qui dominent les classements d'Audascent. Ces champions ont su démontrer habileté, stratégie et persévérance pour atteindre le sommet. Consultez le tableau ci-dessous pour voir qui sont les étoiles de notre communauté e-sportive :
         </p>
   </div>
 

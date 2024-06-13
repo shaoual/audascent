@@ -20,7 +20,7 @@ import carroussel from '@/components/carroussel1.vue'
     <div class="md:w-1/2 lg:pr-20">
       <h1 class="text-3xl font-bold  text-white ml-12">À PROPOS DE NOUS</h1>
       <p class="mt-6 ml-12 text-white ">
-        Bienvenue dans l'univers d'Ascentia, le carrefour où les passionnés d'esports gravissent les sommets de la compétition. Notre plateforme vous propose une expérience de jeu inégalée, conçue pour les aspirants champions en quête d'ascension. À travers nos tournois dynamiques, Ascentia réunit une communauté soudée par la passion du jeu et le goût du défi. Rejoignez-nous et tracez votre parcours vers la gloire.
+        Bienvenue dans l'univers d'Audascent, le carrefour où les passionnés d'esports gravissent les sommets de la compétition. Notre plateforme vous propose une expérience de jeu inégalée, conçue pour les aspirants champions en quête d'ascension. À travers nos tournois dynamiques, Audascent réunit une communauté soudée par la passion du jeu et le goût du défi. Rejoignez-nous et tracez votre parcours vers la gloire.
       </p>
       <div class="flex justify-center md:justify-start mt-10 ml-12">
         <RouterLink to="/apropos" class="bg-violet-950 hover:bg-gray-400 text-white py-4 px-14 rounded inline-flex items-center border-2 border-white">
