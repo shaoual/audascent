@@ -2,6 +2,7 @@
 import { pb } from '@/backend'
 import cards1 from '@/components/cards1.vue'
 
+
 const allJeux = await pb.collection('jeux').getFullList() 
 </script>
 
@@ -18,5 +19,7 @@ const allJeux = await pb.collection('jeux').getFullList()
      <cards1 v-bind="unJeu" />
     </RouterLink>
   </div>
+
+
 </template>
    

@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import carrousel from '@/components/carrousel.vue';
+import carrousel from '@/components/carrousel.vue'
+import Menu from '@/components/menu.vue'
 </script>
 
 <template>
@@ -65,7 +66,7 @@ import carrousel from '@/components/carrousel.vue';
 
   <carrousel/>
 
-
+<Menu/>
 
 
 </template>
