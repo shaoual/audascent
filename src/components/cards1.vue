@@ -9,9 +9,9 @@ console.log({ ...props })
 <template>
   <RouterLink :to="{ name: '/description', params: { id: props.id } }" class="block">
     <div
-      class="max-w-xs rounded-lg overflow-hidden shadow-lg m-4 transform transition duration-300 hover:scale-105"
+      class="max-w-xs rounded-lg overflow-hidden shadow-lg m-4 transform transition duration-300 hover:scale-105 "
     >
-      <div class="self-stretch flex-grow-0 flex-shrink-0 h-64">
+      <div class="self-stretch flex-grow-0 flex-shrink-0 h-64 ">
         <ImgPb
           :record="props"
           :filename="image"

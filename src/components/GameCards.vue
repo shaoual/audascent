@@ -11,13 +11,13 @@ const games = [
     title: "Valorant",
     matches: 30,
     description: "Précision et stratégie vous attendent. Découvrez l'adrénaline de Valorant et devenez inarrêtable. Intégrez l'équipe, la partie commence !",
-    image: "/public/img/Valorant.web"
+    image: "/public/img/Valorant.webp"
   },
   {
     title: "Call of Duty Warzone",
     matches: 41,
     description: "L'appel du devoir vous attend, plongez dans l'action intense de Warzone. Équipez-vous, combattez, survivez.",
-    image: "/public/img/CallOfDuty.webp"
+    image: "/public/img/CallOfDuty__1.webp"
   },
   {
     title: "FIFA 23",
@@ -41,9 +41,9 @@ const games = [
 </script>
 
 <template>
-  <div class="p-8 min-h-screen">
+  <div class="p-8 min-h-screen p-32 ">
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-      <div v-for="game in games" :key="game.title" class="bg-gray-800 rounded-lg shadow-lg overflow-hidden">
+      <div v-for="game in games" :key="game.title" class="bg-gray-800/50 rounded-lg shadow-lg overflow-hidden">
         <img :src="game.image" alt="game.title" class="w-full h-48 object-cover">
         <div class="p-4">
           <h3 class="text-xl font-bold text-white">{{ game.title }}</h3>
