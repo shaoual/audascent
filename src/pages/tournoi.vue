@@ -1,5 +1,6 @@
 <script setup lang-="ts">
 import Menu from '@/components/menu.vue'
+import cards2 from '@/components/cards2.vue'
 </script>
 
 <template>
@@ -25,6 +26,8 @@ import Menu from '@/components/menu.vue'
 </main>
 
  <Menu />
+
+ <cards2 />
 
 
 </template>

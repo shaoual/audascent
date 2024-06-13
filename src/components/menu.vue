@@ -12,7 +12,7 @@ import IconReglage from '/src/components/icons/icon__reglage.vue'
       <li>
         <RouterLink to="/news">
           <div class="icon-wrapper">
-            <IconMonde class="icon"/>
+            <IconMonde class="icon h-2 w-2"/>
           </div>
           <span>News</span>
         </RouterLink>
@@ -92,11 +92,13 @@ a {
   border: 2px solid white;
   border-radius: 50%;
   margin-right: 10px;
+  overflow: hidden;
 }
 
 .icon {
-  width: 32px;
-  height: 32px;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 a:hover {
