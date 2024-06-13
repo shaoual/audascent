@@ -1,9 +1,6 @@
 <template>
   <div class=" mx-auto p-32 ml-44">
-    <h2 class="text-white text-2xl mb-4">Tournoi du Mois : Bataille Royale Ascenita</h2>
-    <div class="flex mb-4">
-      <button class="bg-gray-800 text-white py-2 px-4 rounded">Ce mois</button>
-    </div>
+    
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       <div v-for="card in cards" :key="card.title" class="card">
         <img :src="card.image" alt="Card image" class="card-img">
