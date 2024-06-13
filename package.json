@@ -17,6 +17,7 @@
     "firebase": "^10.12.2",
     "pocketbase": "^0.21.2",
     "pocketbase-typegen": "^1.2.1",
+    "swiper": "^11.1.4",
     "unplugin-vue-router": "^0.8.5",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"

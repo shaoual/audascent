@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import cards3 from '@/components/cards3.vue'
+import Menu from '@/components/menu.vue'
 </script>
 
 <template>
@@ -17,4 +18,5 @@ import cards3 from '@/components/cards3.vue'
     <!-- Section Nos Champions -->
    
 <cards3/>
+<Menu />
 </template>
