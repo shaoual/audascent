@@ -1,5 +1,5 @@
 <script setup lang="ts">
-
+import carrousel from '@/components/carrousel.vue';
 </script>
 
 <template>
@@ -59,11 +59,11 @@
     <img src="/public/img/img__news2.webp" alt="Participez et Exprimez-vous" class="rounded-lg mb-10 w- h-96 object-cover">
 
     <!-- Section Boostez votre Expérience Gaming -->
-    <h3 class="text-white text-3xl font-bold mb-6 text-center">BOOSTEZ VOTRE EXPÉRIENCE GAMING</h3>
+
     
   </div>
 
-  
+  <carrousel/>
 
 
 
