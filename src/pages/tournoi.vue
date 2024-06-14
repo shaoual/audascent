@@ -20,7 +20,7 @@ import cards2 from '@/components/cards2.vue'
 
 
  <h2 class="font-bold mb-3 text-center"> Tournois en Vedette</h2>
- <div class=" mx-auto p-32 ml-44">
+ <div class="  ml-72">
     <h2 class="text-white text-2xl mb-4">Tournoi du Mois : Bataille Royale Audascent</h2>
     <div class="flex mb-4">
       <button class="bg-gray-800 text-white py-2 px-4 rounded">Ce mois</button>

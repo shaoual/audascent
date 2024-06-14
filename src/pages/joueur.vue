@@ -13,10 +13,9 @@ import Menu from '@/components/menu.vue'
       </p>
 
        <h2 class="text-white text-2xl ">Nos Champions</h2>
+       
     </div>
-
-    <!-- Section Nos Champions -->
-   
 <cards3/>
+
 <Menu />
 </template>

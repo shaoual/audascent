@@ -18,7 +18,7 @@ import IconReglage from '/src/components/icons/icon__reglage.vue'
         </RouterLink>
       </li>
       <li>
-        <RouterLink to="/tournois">
+        <RouterLink to="/tournoi">
           <div class="icon-wrapper">
             <IconCup class="icon"/>
           </div>

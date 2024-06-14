@@ -35,9 +35,7 @@
         <button @click="signInWithGoogle" type="button" class="bg-red-500 text-white font-bold rounded py-2 px-4">
           <i class="fab fa-google"></i> Google
         </button>
-        <button @click="signInWithFacebook" type="button" class="bg-blue-500 text-white font-bold rounded py-2 px-4">
-          <i class="fab fa-facebook"></i> Facebook
-        </button>
+       
       </div>
       <router-link to="/seconnecter">
         <p class="text-center">Déjà un compte ? <span class="text-violet-500">Se connecter</span></p>
