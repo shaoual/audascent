@@ -69,7 +69,7 @@ import carroussel from '@/components/carroussel1.vue'
       <section class="px-4 py-20 text-center">
         <h2 class="text-4xl font-bold mb-12 text-white">DÉCOUVREZ LES TOURNOIS</h2>
         <GameCards />
-         <h2 class="text-4xl font-bold mb-12 text-white">DÉCOUVREZ LES TOURNOIS</h2>
+         <h2 class="text-4xl font-bold mb-12 text-white">LES JEUX PRÉSENT DANS L'ARÈNE!</h2>
           <carroussel/>
       </section>
    

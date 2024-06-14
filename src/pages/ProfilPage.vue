@@ -4,7 +4,7 @@
       <img src="/public/img/img_profil-1.webp" alt="background" class="w-full h-64 object-cover opacity-50">
       <div class="absolute top-0 left-0 w-full h-full flex justify-center items-center">
         <div class="bg-black bg-opacity-50 p-4 rounded-full">
-          <img src="/public/img/fifa23.webp" alt="profile" class="w-24 h-24 rounded-full">
+          <img src="/public/img/joueur__1.webp" alt="profile" class="w-24 h-24 rounded-full">
         </div>
       </div>
     </div>

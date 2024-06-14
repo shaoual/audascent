@@ -33,7 +33,7 @@ import { RouterView } from 'vue-router'
 
         <div class="flex justify-center space-x-4">
             <RouterLink to="/Inscription"><button class="bg-white text-black font-bold py-2 px-5 rounded inline-flex items-center lg:flex-row">S'inscrire</button></RouterLink>
-            <RouterLink to="/profil"><button class="bg-white text-black font-bold py-2 px-5 rounded inline-flex items-center lg:flex-row">Se connecter</button></RouterLink>
+            <RouterLink to="/ProfilPage"><button class="bg-white text-black font-bold py-2 px-5 rounded inline-flex items-center lg:flex-row">Se connecter</button></RouterLink>
         </div>
 
         </form>

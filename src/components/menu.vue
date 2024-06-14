@@ -12,7 +12,7 @@ import IconReglage from '/src/components/icons/icon__reglage.vue'
       <li>
         <RouterLink to="/news">
           <div class="icon-wrapper">
-            <IconMonde class="icon h-2 w-2"/>
+            <IconMonde class="icon h-20 w-20"/>
           </div>
           <span>News</span>
         </RouterLink>
@@ -60,7 +60,6 @@ import IconReglage from '/src/components/icons/icon__reglage.vue'
   top: 60%;
   transform: translateY(-50%);
   width: 200px;
-  background-color: #1f1f1f;
   padding: 20px;
   border-radius: 0 10px 10px 0;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -87,8 +86,8 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 48px;
-  height: 48px;
+  width: 68px;
+  height: 68px;
   border: 2px solid white;
   border-radius: 50%;
   margin-right: 10px;
@@ -96,7 +95,7 @@ a {
 }
 
 .icon {
-  width: 100%;
+  width: 190%;
   height: 100%;
   object-fit: contain;
 }

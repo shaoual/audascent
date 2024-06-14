@@ -59,7 +59,7 @@ import Menu from '@/components/menu.vue'
     </p>
     <img src="/public/img/img__news2.webp" alt="Participez et Exprimez-vous" class="rounded-lg mb-10 w- h-96 object-cover ml-36">
 
-    <!-- Section Boostez votre Expérience Gaming -->
+   
 
     
   </div>
